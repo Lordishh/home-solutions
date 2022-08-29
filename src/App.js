@@ -1,3 +1,4 @@
+import { Navbar } from "./home";
 import GlobalStyles from "./styles/GlobalStyles";
 
 
@@ -5,7 +6,8 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <h1>Primer Commit</h1>
+      <Navbar />
+
     </>
   );
 }
